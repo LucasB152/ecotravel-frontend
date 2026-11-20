@@ -1,27 +1,40 @@
-# FrontEcotravel
+# EcoTravel — Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+> Bachelor team project for the *Web Frameworks* course (4 students, Nov. 2024 – Jan. 2025) · **Archived, not maintained**
 
-## Development server
+EcoTravel is a fictional platform built for a course project. It lists **eco-friendly accommodations and activities** and lets travellers combine them into **itineraries**. The original goal was also to estimate the CO₂ footprint of each itinerary.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This repository contains the **Angular client**. The REST API is in [EcoTravel---BackEnd](https://github.com/LucasB152/EcoTravel---BackEnd), and its README describes the features in detail.
 
-## Code scaffolding
+## Project status
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The project was delivered at the end of the course and has not been worked on since. **Some features are incomplete**. In particular, the CO₂ estimation of itineraries was never implemented.
 
-## Build
+## Pages
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Sign-up, login and email verification
+- Search for destinations by type and tags, destination details and reviews
+- User profile and profile editing
+- Itinerary details: add, remove and reorder steps
+- Host area: host account request, create and edit destinations
+- Admin dashboard
 
-## Running unit tests
+## Tech stack
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Angular 18 (with SSR) · TypeScript · Tailwind CSS · Docker + Nginx
 
-## Running end-to-end tests
+## Running locally
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Requirements: Node.js 20 and the backend running on `http://localhost:8081`.
 
-## Further help
+```bash
+npm install
+npm start          # http://localhost:4200
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+or with Docker:
+
+```bash
+docker build -t ecotravel-front .
+docker run -p 80:80 ecotravel-front
+```

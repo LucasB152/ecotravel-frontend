@@ -4,7 +4,7 @@
 
 EcoTravel is a fictional platform built for a course project. It lists **eco-friendly accommodations and activities** and lets travellers combine them into **itineraries**. The original goal was also to estimate the CO₂ footprint of each itinerary.
 
-This repository contains the **Angular client**. The REST API is in [EcoTravel---BackEnd](https://github.com/LucasB152/EcoTravel---BackEnd), and its README describes the features in detail.
+This repository contains the **Angular client**. The REST API is in [ecotravel-backend](https://github.com/LucasB152/ecotravel-backend), and its README describes the features in detail.
 
 ## Project status
 

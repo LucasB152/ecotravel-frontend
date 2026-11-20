@@ -1,6 +1,6 @@
 # EcoTravel — Frontend
 
-> Bachelor team project for the *Web Frameworks* course (4 students, Nov. 2024 – Jan. 2025) · **Archived, not maintained**
+> Bachelor team project for the *Web Frameworks* course (3 students, Nov. 2024 – Jan. 2025) · **Archived, not maintained**
 
 EcoTravel is a fictional platform built for a course project. It lists **eco-friendly accommodations and activities** and lets travellers combine them into **itineraries**. The original goal was also to estimate the CO₂ footprint of each itinerary.
 
